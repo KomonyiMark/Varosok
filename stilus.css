@@ -1,0 +1,21 @@
+@charset "utf-8";
+table{
+    width: 100%;
+}
+table tr:nth-child(odd){
+
+    background-color:silver;
+
+}
+table {
+    border-collapse:collapse;
+
+}
+td,th {
+    border-bottom: 2px solid gray;
+    text-align:center;
+}
+.fejlec{
+    background-color: red;
+    cursor: grab;
+}
